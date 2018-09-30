@@ -21,9 +21,9 @@ if (empty($_POST["message"])) {
 }
 
 $EmailTo = "delmonte.ale92@gmail.com";
-$Subject = "IMAG2: New contact from $name !\n";
+$Subject = "IMAG2: New contact from $name !";
 
-$Body = "A new message has been sent using the IMAG2 web-form.\n";
+$Body = "A new message has been sent using the IMAG2 web-form.\n\n";
 $Body .= "Name: ";
 $Body .= $name;
 $Body .= "\n";
