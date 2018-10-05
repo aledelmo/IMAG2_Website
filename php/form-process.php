@@ -2,6 +2,11 @@
 
 $errorMSG = "";
 
+if (!empty($honeypot)) {
+    echo "BAD ROBOT!";
+    exit;
+}
+
 if (empty($_POST["name"])) {
     $errorMSG = "Name is required ";
 } else {
