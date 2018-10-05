@@ -1,8 +1,4 @@
 AuthUserFile /storage/ssd4/071/7317071/public_html/conf/.htpasswd
 AuthType Basic
 AuthName "Authentication Required"
-#DirectoryIndex index.html
 Require valid-user
-
-#RedirectMatch 403 /\..*$
-#Options -Indexes
