@@ -2,7 +2,7 @@
 New website for the IMAG2 Team
 
 ## 
-GitHub page of the newly launched IMAG website, that you can find at this link: <https://aledelmo.000webhostapp.com>
+GitHub page of the newly launched IMAG website, that you can find at this link: <http://www.imag2.org>
 
 In our new site you can find any information you need to know about our team. Including:
 * Mission, research and examples;
@@ -24,6 +24,7 @@ Discover the other repositories developed for the team:
 * [Tractography Metrics]: tool for the analysis of fiber bundles.
 * [Vessel Segmentation]: deep-learning based approach for the automatic recognition of veins and arteries.
 * [IMAG2 Utilities]: collection of various scripts.
+* [IMAG2 Docs]: general and process documentation
 
 License
 ----
@@ -37,4 +38,5 @@ Apache License 2.0
    [Vessel Segmentation]: <https://github.com/aledelmo/VesselsSegmentation>
    [IMAG2 Utilities]: <https://github.com/aledelmo/IMAG2_Utilities>
    [Bootstrap]: <https://getbootstrap.com>
+   [IMAG2 Docs]: <https://github.com/aledelmo/IMAG2_docs>
    
