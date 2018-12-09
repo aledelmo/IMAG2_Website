@@ -2035,10 +2035,10 @@ a.btn:focus {
 
 /* Media queries */
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 
     .navbar {
-        padding: 20px 0;
+        padding: 20px 0 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
