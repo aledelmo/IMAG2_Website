@@ -24,7 +24,7 @@
 
     //jQuery to collapse the navbar on scroll
     $(window).scroll(function () {
-        if ($(".navbar").offset().top > 50) {
+        if ($(".navbar").offset().top > 40) {
             $(".navbar-fixed-top").addClass("top-nav-collapse");
         } else {
             $(".navbar-fixed-top").removeClass("top-nav-collapse");
@@ -155,7 +155,7 @@
         // The delay between each word in milliseconds
         speed: 3000
     });
-
+/*
     //nicescroll
     $("html").niceScroll({
         zindex: 999,
@@ -181,10 +181,10 @@
     }
 
     $(window).load(initNice);
-    $(window).resize(initNice);
+    $(window).resize(initNice);*/
 
 })(jQuery);
 $(window).load(function () {
-    $(".loader").delay(300).fadeOut();
-    $("#page-loader").delay(500).fadeOut("slow");
+    $(".loader").delay(0).fadeOut("fast");
+    $("#page-loader").delay(0).fadeOut("fast");
 });

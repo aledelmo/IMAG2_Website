@@ -40,7 +40,7 @@
 </head>
 
 <!--<body id="page-top" data-spy="scroll" data-target=".navbar-custom">-->
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom" style="min-width: 800px">
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom" style="margin: 0; padding: 0">
 
 <div id="page-loader">
     <div class="loader">
@@ -99,9 +99,15 @@
                                 <a class="dropdown-toggle" data-toggle="dropdown">Works<b
                                         class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="active" href="#parallax2">Database</a>
+                                    <li><a class="active" href="#pictures">Overview</a>
                                     </li>
-                                    <li><a class="active" href="#pictures">Pictures</a>
+                                    <li><a class="external" href="models.html">Modeling</a>
+                                    </li>
+                                    <li><a class="external" href="app.html">The IMAG2 App</a>
+                                    </li>
+                                    <li><a class="external" href="lighsheet.html">Fetal Development</a>
+                                    </li>
+                                    <li><a class="active" href="#parallax2">Database</a>
                                     </li>
                                     <li><a class="external" href="publ.html">Publications</a>
                                     </li>
@@ -116,7 +122,7 @@
                                     <li><a class="external" href="http://www.institutimagine.org/">Imagine Institut</a>
                                     </li>
                                     <li><a class="external"
-                                           href="https://dsp.institutimagine.org/imag2/connexion.php?login=&script_appel=/imag2/index.php">Platform</a>
+                                           href="https://dsp.institutimagine.org/imag2/connexion.php?login=&script_appel=/imag2/index.php">IMAG2 Platform</a>
                                     </li>
                                 </ul>
                             </li>
@@ -129,35 +135,32 @@
 </div>
 
 <div id="intro" class="home-slide text-light">
-
     <ul id="valera-slippry">
         <li style="transition-duration: 1200ms;">
             <div>
-                <img src="img/slides/1.jpg"
+                <img src="img/slides/1.jpg" style="max-height: 1080px"
                      alt="IMAG2 <br> <small> An Imagine Institut Team </small><br><a href='#about' class='btn btn-skin btn-slide'>Learn more</a>">
             </div>
         </li>
         <li style="transition-duration: 1200ms;">
-            <div><img src="img/slides/2.jpg"
+            <div><img src="img/slides/2.jpg" style="max-height: 1080px"
                       alt="Computational anatomy for image-guided surgery <br> <a href='#about' class='btn btn-skin btn-slide'>Learn more</a>">
             </div>
         </li>
         <li style="transition-duration: 1200ms;">
-            <div><img src="img/slides/3.jpg"
+            <div><img src="img/slides/3.jpg" style="max-height: 1080px"
                       alt="Pediatric tumoral and developmental diseases <br><a href='#about' class='btn btn-skin btn-slide'>Learn more</a>">
             </div>
         </li>
     </ul>
-
-
 </div>
 
-<section id="about" class="home-section color-dark bg-white">
-    <div class="container marginbot-50">
+<section id="about" class="home-section color-dark bg-white" style="margin-bottom: 0; margin-top: 0;">
+    <div class="container marginbot-0">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <div class="section-heading text-center">
-                    <h2 class="h-bold">What we do</h2>
+                    <h2 class="h-bold">The IMAG2 Laboratory</h2>
                     <div class="divider-header"></div>
                     <br>
                     <h3 class="h-bold">Mission</h3>
@@ -177,23 +180,22 @@
                         In the constantly evolving medical ecosystem, we hope our technology can bring more safety and
                         efficiency for all the parts involved.
                         <br><br>
-                        <img src="img/partners/imag2.jpg"/>
+                        <img src="img/partners/imag2.jpg" style="max-height: 100px; margin-bottom: 0; padding-bottom: 0;">
                 </div>
 
             </div>
         </div>
-
     </div>
 </section>
 
 <section id="service" class="home-section color-dark bg-white">
-    <div class="container marginbot-50">
+    <div class="container marginbot-0">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-
                 <div class="section-heading text-center">
                     <h2 class="h-bold">Research Focus</h2>
                     <div class="divider-header"></div>
+                    <div class="text-center" style="margin-top: 0;">
                     <p>We are currently working on developing a complete framework for the visualization, exploration
                         and analysis of pediatric patients anatomy, with special attention in abdominal surgery
                         applications.<br><br>
@@ -203,6 +205,7 @@
                         We aim to provide accurate and patient-specific 3D models, offering portable and interpretable
                         results.
                     </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -273,39 +276,26 @@
     </div>
 </section>
 
-<section id="parallax2" class="home-section parallax text-light" data-stellar-background-ratio="0.9">
-    <div class="container">
-        <div class="row appear stats">
-            <div class="text-center">
-                <h2 class="big-heading highlight-dark">Dataset</h2>
-                <span class="text"><br>We built our own research dataset composed by high quality structural and diffusion MRI images.<br><br></span>
-            </div>
-        </div>
-        <div class="row appear stats color-white txt-shadow">
-            <div class="col-md-3">
-                <h3 class="text-center" style="color: #fff;font-size:40px;"><b>>100<br>Subjects</b></h3>
-            </div>
-            <div class="col-md-3">
-                <h3 class="text-center" style="color: #fff;font-size:40px;"><b>52<br>Malformations</b></h3>
-            </div>
-            <div class="col-md-3">
-                <h3 class="text-center" style="color: #fff;font-size:40px;"><b>45<br>Tumors</b></h3>
-            </div>
-            <div class="col-md-3">
-                <h3 class="text-center" style="color: #fff;font-size:40px;"><b>9<br>Sequences</b></h3>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section id="pictures" class="home-section color-dark text-center bg-white">
-    <div class="container marginbot-50">
+    <div class="container marginbot-0">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <div class="section-heading text-center">
-                    <h2 class="h-bold">Work in pictures</h2>
+                    <h2 class="h-bold">Works</h2>
                     <div class="divider-header"></div>
-                    <p><br/>Printed models, reconstructions and more. Check out some of our recent results!</p>
+                    <p>We currently have different active research projects with focus on medical image processing for pediatric cancer care and ano-rectal malformations surgeries.<br><br>
+                        Learn more about some of our recent works:</p>
+                    <div class="list-group">
+                        <a href="models.html" class="list-group-item list-group-item-action"><p><b>3D MODELING</b></p>
+                        Organs and nerves modeling for a precise anatomy representation. AI and logical reasoning for computer-assisted processing.</a>
+                        <a href="app.html" class="list-group-item list-group-item-action"><p><b>THE IMAG2 APP</b></p>
+                        Clinical software for advanced 3D visualization. Anatomy exploration for surgical planning and ropbotic surgery applications.</a>
+                        <a href="lighsheet.html" class="list-group-item list-group-item-action"><p><b>FETAL DEVELOPMENT</b></p>
+                            Microscopy ultra-resolution imaging for embryons and fetal development analysis.</a>
+                    </div>
+                    <br>
+                    <p>But we also work on virtual and augmented reality tools, 3D printing, minimally invasive surgery applications and much more.<br><br>
+                    Check <a href="publ.html">HERE</a> to scroll the latest publications. Get in touch to know more about us!</p>
                 </div>
             </div>
         </div>
@@ -340,12 +330,12 @@ pediatric surgery. Picture: Cloacal malformation."
                                          data-lightbox-hidpi="img/works/4.jpg"><img src="img/works/4.jpg"
                                                                                     class="img-responsive "
                                                                                     alt="img/works/4.jpg"></a></div>
-                    <div class="item"><a href="img/works/5.jpg"
+                    <div class="item"><a href="img/works/5_new.jpg"
                                          title="The portability workflow complete the experience giving the possibility to easily share the reconstructions with colleagues, patients and researchers."
                                          data-lightbox-gallery="gallery1"
-                                         data-lightbox-hidpi="img/works/5.jpg"><img src="img/works/5.jpg"
+                                         data-lightbox-hidpi="img/works/5_new.jpg"><img src="img/works/5_new.jpg"
                                                                                     class="img-responsive"
-                                                                                    alt="img/works/5.jpg"></a></div>
+                                                                                    alt="img/works/5_new.jpg"></a></div>
                     <div class="item"><a href="img/works/6.jpg"
                                          title="The modeling algorithms try to exploit the surgeons experience offering readable interfaces and clear interactions. Picture: The Pelvis Query Language."
                                          data-lightbox-gallery="gallery1"
@@ -365,6 +355,32 @@ pediatric surgery. Picture: Cloacal malformation."
                                                                                     class="img-responsive "
                                                                                     alt="img/works/8.jpg"></a></div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="parallax2" class="home-section parallax text-light" data-stellar-background-ratio="0.9">
+    <div class="container">
+        <div class="row appear stats">
+            <div class="text-center">
+                <h2 class="big-heading highlight-dark">Dataset</h2>
+                <span class="text"><br>We built our own research dataset composed by high quality structural and diffusion MRI images.<br><br></span>
+            </div>
+        </div>
+        <div class="row appear stats color-white txt-shadow">
+            <div class="col-md-3">
+                <h3 class="text-center" style="color: #fff;font-size:40px;"><b>>120<br>Subjects</b></h3>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-center" style="color: #fff;font-size:40px;"><b>60<br>Malformations</b></h3>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-center" style="color: #fff;font-size:40px;"><b>55<br>Tumors</b></h3>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-center" style="color: #fff;font-size:40px;"><b>9<br>Sequences</b></h3>
             </div>
         </div>
     </div>
@@ -426,20 +442,20 @@ pediatric surgery. Picture: Cloacal malformation."
                 <div class="col-xs-0 col-sm-0 col-md-3">
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="team-wrapper-big">
+                    <div class="team-wrapper-small">
                         <div class="team-wrapper-overlay">
                             <h5>Sabine Sarnacki</h5>
                             <p>Founder.<br>Team Director.</p>
                             <div class="social-icons">
-                                <a href="mailto:sabine.sarnacki@nck.aphp.fr"
-                                   target="_top">sabine.sarnacki@nck.aphp.fr</a>
+                                <a href="mailto:sabine.sarnacki@aphp.fr"
+                                   target="_top">sabine.sarnacki@aphp.fr</a>
                             </div>
                         </div>
                         <img src="img/team/sabine.jpg" alt="Sabine Sarnacki"/>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="team-wrapper-big">
+                    <div class="team-wrapper-small">
                         <div class="team-wrapper-overlay">
                             <h5>Isabelle Bloch</h5>
                             <p>Founder.<br>Technical Director.</p>
@@ -456,7 +472,7 @@ pediatric surgery. Picture: Cloacal malformation."
             <br>
             <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="team-wrapper-big">
+                    <div class="team-wrapper-small">
                         <div class="team-wrapper-overlay">
                             <h5>Alessandro Delmonte</h5>
                             <p>Engineer.</p>
@@ -470,7 +486,7 @@ pediatric surgery. Picture: Cloacal malformation."
                 </div>
 
                 <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="team-wrapper-big">
+                    <div class="team-wrapper-small">
                         <div class="team-wrapper-overlay">
                             <h5>Cécile Muller</h5>
                             <p>PhD student. Surgeon.</p>
@@ -483,7 +499,7 @@ pediatric surgery. Picture: Cloacal malformation."
                     <br>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="team-wrapper-big">
+                    <div class="team-wrapper-small">
                         <div class="team-wrapper-overlay">
                             <h5>Quôc Peyrot</h5>
                             <p>Surgeon. Engineer.</p>
@@ -496,7 +512,7 @@ pediatric surgery. Picture: Cloacal malformation."
                     <br>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="team-wrapper-big">
+                    <div class="team-wrapper-small">
                         <div class="team-wrapper-overlay">
                             <h5>Pierre Meignan</h5>
                             <p>Master student.</p>
@@ -512,7 +528,7 @@ pediatric surgery. Picture: Cloacal malformation."
 
 
             <div class="col-xs-6 col-sm-6 col-md-3">
-                <div class="team-wrapper-big">
+                <div class="team-wrapper-small">
                     <div class="team-wrapper-overlay">
                         <h5>Nathalie Boddaert</h5>
                         <p>Radiologist.</p>
@@ -525,7 +541,7 @@ pediatric surgery. Picture: Cloacal malformation."
                 <br>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3">
-                <div class="team-wrapper-big">
+                <div class="team-wrapper-small">
                     <div class="team-wrapper-overlay">
                         <h5>Laureline Berteloot</h5>
                         <p>Radiologist.</p>
@@ -540,7 +556,7 @@ pediatric surgery. Picture: Cloacal malformation."
             </div>
             <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="team-wrapper-big">
+                    <div class="team-wrapper-small">
                         <div class="team-wrapper-overlay">
                             <h5>Thomas Blanc</h5>
                             <p>Surgeon.</p>
@@ -553,7 +569,7 @@ pediatric surgery. Picture: Cloacal malformation."
                     <br>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="team-wrapper-big">
+                    <div class="team-wrapper-small">
                         <div class="team-wrapper-overlay">
                             <h5>Alessio Virzì</h5>
                             <p>PhD student.</p>
@@ -615,8 +631,6 @@ pediatric surgery. Picture: Cloacal malformation."
                         maxillo-facial surgery.<br><br>An huge thanks to all of the IMAG2 partners
                         that allow this project to be up and running.<br><br><img src="img/partners/partners.jpg"
                                                                                   alt="Partners"/></p>
-
-
                 </div>
             </div>
         </div>
@@ -691,15 +705,15 @@ pediatric surgery. Picture: Cloacal malformation."
     <div id="google-map"></div>
 </section>
 
-<footer>
+<div class="panel-footer" style="background-color: #555555; color: #ffffff">
     <div class="container">
         <div class="text-center">
             <a href="#intro" class="totop"><i class="pe-7s-angle-up pe-3x"></i></a>
             <div class="row">
-                <img src="img/logos/imagine.jpg" style="width:10%">
-                <img src="img/logos/paristech.jpg" style="width:4.6%">
-                <img src="img/logos/aphp.jpg" style="width:15%">
-                <img src="img/logos/paris.jpg" style="width:6.5%">
+                <img src="img/logos/imagine.jpg" style="height: 55px">
+                <img src="img/logos/paristech.jpg" style="height: 55px">
+                <img src="img/logos/aphp.jpg" style="height: 55px">
+                <img src="img/logos/necker.jpg" style="height: 55px">
             </div>
             <p><br>IMAG2 at Imagine Institut, 24 Boulevard de Montparnasse, 75015 Paris, France<br/>
                 &copy;Copyright 2018 - IMAG2. All rights reserved.<br/>Designed by <a
@@ -707,7 +721,7 @@ pediatric surgery. Picture: Cloacal malformation."
                         href="http://bootstraptaste.com">BootstrapTaste</a></p>
         </div>
     </div>
-</footer>
+</div>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -726,7 +740,6 @@ pediatric surgery. Picture: Cloacal malformation."
 <script src="js/wow.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/nivo-lightbox.min.js"></script>
-<script src="js/jquery.nicescroll.min.js"></script>
 <script src="js/custom.js"></script>
 <script type="text/javascript" src="js/validator.min.js"></script>
 <script type="text/javascript" src="js/form-scripts.js"></script>

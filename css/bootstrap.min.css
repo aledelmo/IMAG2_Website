@@ -5,14 +5,20 @@
  */
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #666;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.6em;
 }
 
-body {
-    margin: 0
+html {
+    width: 100%;
+    height: 100%;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
@@ -281,16 +287,19 @@ td, th {
 }
 
 html {
-    font-size: 62.5%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    width: 100%;
+    height: 100%;
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #666;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.6em;
 }
 
 input, button, select, textarea {
@@ -3269,14 +3278,14 @@ input[type=submit].btn-block, input[type=reset].btn-block, input[type=button].bt
     display: none;
     float: left;
     min-width: 160px;
-    padding: 5px 0;
-    margin: 2px 0 0;
+    padding: 0;
+    margin: 0;
     list-style: none;
     font-size: 14px;
     background-color: #fff;
     border: 1px solid #ccc;
     border: 1px solid rgba(0, 0, 0, .15);
-    border-radius: 4px;
+    border-radius: 0px;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     background-clip: padding-box
@@ -4023,7 +4032,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 
 .navbar-fixed-top {
     top: 0;
-    border-width: 0 0 1px
+    border-width: 0 0 0px
 }
 
 .navbar-fixed-bottom {
@@ -4594,16 +4603,18 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 }
 
 .label {
-    display: inline;
-    padding: .2em .6em .3em;
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1;
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    outline: none;
     color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25em
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+    background-color: #FE7A66;
 }
 
 .label[href]:hover, .label[href]:focus {
@@ -4646,7 +4657,8 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 }
 
 .label-info {
-    background-color: #5bc0de
+    background-color: #FE7A66;
+    color: white;
 }
 
 .label-info[href]:hover, .label-info[href]:focus {
@@ -5029,7 +5041,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 }
 
 a.list-group-item {
-    color: #555
+    color: #000000;
 }
 
 a.list-group-item .list-group-item-heading {

@@ -206,7 +206,7 @@ blockquote strong {
 
 .navbar-custom ul.nav ul.dropdown-menu {
     border-radius: 0;
-    margin-top: 21px;
+    margin-top: 0px;
     border-top: none;
 }
 
@@ -597,11 +597,12 @@ hr.bold {
 ============================ */
 
 .home-section {
-    padding-top: 150px;
-    padding-bottom: 110px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     display: block;
     position: relative;
     z-index: 120;
+    min-height: 250px;
 }
 
 .inner-section {
@@ -759,7 +760,8 @@ hr.bold {
     text-align: center;
     height: 0;
     padding-top: 20%;
-    padding-bottom: 30%;
+    padding-bottom: 0%;
+    min-height: 720px;
     overflow: hidden;
 
 }
@@ -1451,7 +1453,7 @@ footer p {
 
 footer a.totop {
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 footer a.totop:focus {
@@ -1545,6 +1547,25 @@ Parallax
 }
 
 #parallax3:after {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+#parallax4 {
+    background: url(../img/parallax/4.jpg) no-repeat center;
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+
+#parallax4:after {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
     content: "";
     position: absolute;
@@ -1724,7 +1745,7 @@ Parallax
 
 @-webkit-keyframes pulse {
 
-0
+0%
 {
     -webkit-transform: scale(1)
 ;
@@ -1753,7 +1774,7 @@ Parallax
 
 @-moz-keyframes pulse {
 
-0
+0%
 {
     -moz-transform: scale(1)
 ;
@@ -2038,7 +2059,7 @@ a.btn:focus {
 @media (min-width: 768px) {
 
     .navbar {
-        padding: 20px 0 0;
+        padding: 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
@@ -2077,12 +2098,12 @@ a.btn:focus {
     }
 
     .site-logo {
-        margin: 0 0 0 30px;
+        margin: 0;
         float: none;
     }
 
     .navbar-custom ul.nav li a {
-        color: #eee;
+        color: #000;
     }
 
     .navbar-custom ul.nav ul.dropdown-menu li {
@@ -2150,5 +2171,55 @@ a.btn:focus {
         border-radius: 50%;
         font-size: 20px;
     }
+}
 
+
+.photo-gallery {
+    color:#313437;
+    background-color:#ffffff;
+}
+
+.photo-gallery p {
+    color:#ffffff;
+}
+
+.photo-gallery h2 {
+    font-weight:bold;
+    margin:0;
+    padding:0;
+    color:inherit;
+}
+
+@media (max-width:768px) {
+    .photo-gallery h2 {
+        margin:0;
+        padding:0;
+        font-size:0;
+    }
+}
+
+.photo-gallery .intro {
+    font-size:16px;
+    margin: 0;
+}
+
+.photo-gallery .intro p {
+    margin-bottom:0;
+}
+
+.photo-gallery .photos {
+    margin-bottom: 0;
+    padding: 0;
+    size: auto;
+}
+
+.photo-gallery .itemphoto {
+    padding-bottom:0;
+    margin: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.noPadding {
+    padding: 0 !important;
 }
