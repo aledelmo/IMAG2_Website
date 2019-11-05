@@ -2223,3 +2223,8 @@ a.btn:focus {
 .noPadding {
     padding: 0 !important;
 }
+.dataTables_paginate a {
+    color: #FE7A66;
+    padding-right: 30px;
+    font-weight: bold;
+}
