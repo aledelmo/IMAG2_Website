@@ -85,12 +85,11 @@ h1.font-light, h2.font-light, h3.font-light, h4.font-light, h5.font-light, h6.fo
 }
 
 p {
-    margin: 0 0 20px;
-
+    font-size: 5px;
 }
 
 p.lead {
-    font-weight: 600;
+    font-weight: 5;
 }
 
 .highlight-light {
@@ -597,12 +596,11 @@ hr.bold {
 ============================ */
 
 .home-section {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: block;
     position: relative;
     z-index: 120;
-    min-height: 250px;
 }
 
 .inner-section {
@@ -622,7 +620,6 @@ hr.bold {
 }
 
 .section-heading p {
-    font-weight: 300;
     font-size: 20px;
     line-height: 1.6em;
 }
